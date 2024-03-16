@@ -1,0 +1,29 @@
+This is README file for Algorithm PA#1
+Author: 林祐群 B10901151
+Date: 2023/10/03
+=====
+SYNOPSIS:
+
+NTU_sort -[IS|MS|QS|RQS|HS] <input_file_name> <output_file_name>
+
+This program supports five different sorting methods: insertion sort, merge sort, quick sort, randomized quick sort, and heap sort.
+=====
+DIRECTORY:
+
+bin/	    executable binary
+doc/	    reports
+lib/      libraries of header files
+outputs/  output result (sorted)
+src/ 	    source C++ codes and libraries
+======
+HOW TO CIMPILE:
+
+1.  cd to the b10901151_pa1 directory.
+2.  (Optional) Type "make" as instruction.
+======
+HOW TO RUN:
+
+	  bin/NTU_sort -[IS|MS|QS|RQS|HS] <input_file_name> <output_file_name>
+	  For example,
+	  under b10901151_pa1
+	  bin/NTU_sort -MS inputs/1000.case1.in outputs/1000.case1.out
